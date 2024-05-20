@@ -1,39 +1,49 @@
-#meu-projeto
-git init - 
- iniciar um novo projeto com git
+meu-projeto
+git init
+ - Inicia um novo projeto com Git.
 
-git add < nome do arquivo > .
-- add os arquivos estao prontos para serem commitados
+git add <nome do arquivo> .
+ - Exemplo: git add arquivo.txt
+  - Adiciona os arquivos que estão prontos para serem commitados.
 
-git commit -m " mensagem commit"
-- commit os aquivos no historico
+git commit -m "mensagem do commit" 
+- Exemplo: git commit -m "Adiciona a funcionalidade X" 
+- Comita os arquivos no histórico.
 
 git log 
-- mostra os ultimos commit , log de alterações 
+- Mostra os últimos commits, log de alterações.
 
 git status 
-- como está o estado da nossa ramificações 
+- Mostra o estado das ramificações.
 
-git diff
-- mostra o que foi alterado
--o que tem de alteração nas  ramificações 
+git diff 
+- Mostra o que foi alterado, o que tem de alteração nas ramificações.
 
 git merge 
-
-- merge de ramificações , mescla ramificações 
+- Mescla ramificações.
 
 git branch 
--mostra a branch atual
+- Mostra a branch atual.
 
 git branch -b <nome-da-branch>
-- criar uma branch a partir da branch atual que estanos 
+ - Exemplo: git branch -b nova-funcionalidade 
+ - Cria uma branch a partir da branch atual em que estamos.
 
-git checkout  <nome-da-branch >
-- muda para branch  selecionada 
+git checkout <nome-da-branch> 
+- Exemplo: git checkout nova-funcionalidade
+- Muda para a branch selecionada.
 
+git remote add <nome> <url> 
+- Exemplo: git remote add origin https://github.com/usuario/repositorio.git
+- Adiciona um repositório remoto.
 
+git push <nome> <nome-da-branch> 
+- Exemplo: git push origin main
+- Envia nossas alterações locais para o repositório remoto para cada branch.
 
+git pull <nome> <nome-da-branch> 
+- Exemplo: git pull origin main 
+- Pega as alterações do repositório remoto e traz para nossa máquina.
 
-
-
-
+git fetch 
+- Atualiza o histórico local de acordo com o histórico salvo no repositório remoto, sincronizando o local com o remoto.
